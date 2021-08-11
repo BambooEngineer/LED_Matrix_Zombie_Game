@@ -156,13 +156,13 @@ class Zombie {
           third = 0x00;
           second = 0x00;
           first = spawn;
-          if(first == x[player]){
+          
             if(Z==0x01){
               maxTransfer(0x0C, 0x00, 0x0C, 0x00, 0x0C, 0x00, 0x0C, 0x00); // Shutdown matrix
               Gameover = 1;
             }
             
-          }
+          
         }
         
         if((*matrix==I)&&(*row==spawn)&&(*column==y[Z])){
